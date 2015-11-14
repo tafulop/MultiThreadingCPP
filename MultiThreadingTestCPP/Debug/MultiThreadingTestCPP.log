@@ -1,0 +1,16 @@
+﻿Build started 2015-11-14 17:09:04.
+     1>Project "D:\Development\Robotkar\SW\PC side\MultiThreadingTestCPP\MultiThreadingTestCPP\MultiThreadingTestCPP.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         E:\Installed Programs\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt MultiThreadingTestCPP.cpp
+         MultiThreadingTestCPP.cpp
+     1>d:\development\robotkar\sw\pc side\multithreadingtestcpp\multithreadingtestcpp\multithreadingtestcpp.cpp(60): warning C4838: conversion from 'double' to 'float' requires a narrowing conversion
+     1>d:\development\robotkar\sw\pc side\multithreadingtestcpp\multithreadingtestcpp\multithreadingtestcpp.cpp(60): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+       Link:
+         E:\Installed Programs\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Development\Robotkar\SW\PC side\MultiThreadingTestCPP\Debug\MultiThreadingTestCPP.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:\Development\Robotkar\SW\PC side\MultiThreadingTestCPP\Debug\MultiThreadingTestCPP.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Development\Robotkar\SW\PC side\MultiThreadingTestCPP\Debug\MultiThreadingTestCPP.lib" /MACHINE:X86 Debug\MultiThreadingTestCPP.obj
+         Debug\stdafx.obj
+         MultiThreadingTestCPP.vcxproj -> D:\Development\Robotkar\SW\PC side\MultiThreadingTestCPP\Debug\MultiThreadingTestCPP.exe
+     1>Done Building Project "D:\Development\Robotkar\SW\PC side\MultiThreadingTestCPP\MultiThreadingTestCPP\MultiThreadingTestCPP.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.65
