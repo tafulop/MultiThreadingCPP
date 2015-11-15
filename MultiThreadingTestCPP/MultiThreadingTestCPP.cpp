@@ -6,6 +6,8 @@
 #include <thread>
 #include <iostream>
 #include <mutex>
+#include "Simulation.h"
+#include "Communication.h"
 
 
 struct Counter {
@@ -49,7 +51,7 @@ struct Counter {
 int main()
 {
 
-	Counter counter;
+	/*Counter counter;
 
 	std::vector<std::thread> threads;
 
@@ -73,7 +75,28 @@ int main()
 	}
 
 	std::cout << counter.value << std::endl;
+	*/
+	std::vector<float> angs;
 
+	angs.push_back(123);
+	angs.push_back(456);
+	angs.push_back(789);
+	angs.push_back(987);
+	angs.push_back(654);
+
+
+	Communication* c = Communication::getInstance();
+	c->setAngles(angs);
+
+	Simulation::getInstance()->startSend();
+
+	while (1) {
+		angs[2] += 1;
+		c->setAngles(angs);
+		std::cout << "szia" << std::endl;
+		Sleep(500);
+	}
+	
 	system("pause");
 
 	return 0;
